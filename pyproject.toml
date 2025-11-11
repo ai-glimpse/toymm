@@ -1,7 +1,7 @@
 [project]
-name = "mppt"
-version = "0.7.0"
-description = "A Modern Python Package Template"
+name = "toymm"
+version = "0.0.1a0"
+description = "Multimodal from scratch"
 authors = [{ name = "Xiangzhuang Shen", email = "datahonor@gmail.com" }]
 license = "MIT"
 readme = "README.md"
@@ -12,13 +12,10 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
 ]
-requires-python = ">= 3.9"
+requires-python = ">= 3.12"
 dependencies = []
 
 [project.optional-dependencies]
@@ -30,7 +27,7 @@ dev = [
     "pytest",
     "pytest-cov",
     "pytest-sugar",
-    "hypothesis>=6.112.0",
+    "hypothesis",
 ]
 docs = [
     "mkdocs",
@@ -45,11 +42,11 @@ docs = [
 ]
 
 [project.urls]
-"Homepage" = "https://shenxiangzhuang.github.io/mppt"
-"Bug Tracker" = "https://shenxiangzhuang.github.io/mppt/issues"
-"Documentation" = "https://shenxiangzhuang.github.io/mppt"
-"Source Code" = "https://github.com/shenxiangzhuang/mppt"
-"Release Notes" = "https://shenxiangzhuang.github.io/mppt/changelog/"
+"Homepage" = "https://shenxiangzhuang.github.io/toymm"
+"Bug Tracker" = "https://shenxiangzhuang.github.io/toymm/issues"
+"Documentation" = "https://shenxiangzhuang.github.io/toymm"
+"Source Code" = "https://github.com/shenxiangzhuang/toymm"
+"Release Notes" = "https://shenxiangzhuang.github.io/toymm/changelog/"
 
 [tool.setuptools]
 zip-safe = true
@@ -61,7 +58,7 @@ build-backend = "setuptools.build_meta"
 
 
 [tool.setuptools.packages.find]
-include = ["mppt*"]
+include = ["toymm*"]
 namespaces = false
 
 

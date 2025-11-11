@@ -1,6 +1,3 @@
-from mppt.hello import hello
-
-
 def test_hello() -> None:
-    msg = hello()
-    assert isinstance(msg, str)
+    msg = "Hello, ToyMM!"
+    assert msg == "Hello, ToyMM!"

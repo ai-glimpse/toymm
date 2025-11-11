@@ -1,4 +1,4 @@
-# TOYMM: A Modern Python Package Template
+# ToyMM: Multimodal from Scratch
 
 [![Python](https://img.shields.io/pypi/pyversions/toymm.svg?color=%2334D058)](https://pypi.org/project/toymm/)
 [![PyPI](https://img.shields.io/pypi/v/toymm?color=%2334D058&label=pypi%20package)](https://pypi.org/project/toymm/)

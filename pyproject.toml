@@ -1,6 +1,6 @@
 [project]
 name = "toymm"
-version = "0.0.1"
+version = "0.0.1a0"
 description = "Multimodal from scratch"
 authors = [{ name = "Xiangzhuang Shen", email = "datahonor@gmail.com" }]
 license = "MIT"
